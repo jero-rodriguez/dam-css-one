@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS One - Measure Units</title>
+    <style>
+        h1 {
+            font-size: 15px;
+        }
+
+        #cm-measure {
+            font-size: 1.5cm;
+        }
+
+        #mm-measure {
+            font-size: 15mm;
+        }
+
+        #dec-measure {
+            font-size: 0.5 in;
+        }
+
+        #in-measure {
+            font-size: 1.5in;
+        }
+
+        #px-measure {
+            font-size: 20px;
+        }
+
+        #em-measure {
+            font-size: 2em;
+        }
+
+        #percent-measure {
+            font-size: 200%;
+        }
+
+        #box {
+            width: 100vw;
+            height: 50px;
+            background-color: lightblue;
+            text-align: center;
+            line-height: 50px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #title {
+            color: darkblue;
+        }
+
+        #content {
+            height: 200px;
+            background-color: lightgray;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <div id="title">CSS One - Unidades de Medida</div>
+
+    </div>
+    <div id="content">
+        <h1>Unidades de Medida en CSS</h1>
+        <p>
+            A diferencia de HTML en CSS se puede indicar el tamaño de los elementos
+            con distintas unidades de medida. Las unidades más comunes son:
+        <ul>
+            <li>px: píxeles. Unidad absoluta.</li>
+            <li>em: unidades relativas al tamaño de la fuente del elemento padre.</li>
+            <li>rem: unidades relativas al tamaño de la fuente del elemento raíz (html).</li>
+            <li>%: porcentaje relativo al tamaño del elemento padre.</li>
+        </ul>
+        </p>
+    </div>
+    <div id="cm-measure">Esto es un div con la medida en centimetros</div>
+    <div id="mm-measure">Esto es un div con la medida en milimetros</div>
+    <div id="dec-measure">Esto es un div con la medida en decimal</div>
+    <div id="in-measure">Esto es un div con la medida en inches</div>
+    <div id="px-measure">Esto es un div con la medida en pixeles</div>
+    <div id="em-measure">Esto es un div con la medida en em (elemento padre)</div>
+    <div id="percent-measure">Esto es un div con la medida en porcentaje</div>
+</body>
+
+</html>
