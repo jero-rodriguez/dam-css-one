@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-family: Consolas, monospace;
+        }
+
+        #capa {
+            width: 400px;
+            height: 300px;
+            border: 10px solid chartreuse;
+            border-radius: 15px;
+            border-top-style: dotted;
+            border-left-color: red;
+            border-bottom-width: 5px;
+            border-right: 5px dashed blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Propiedades de los bordes en CSS</h1>
+    <p>En CSS, las propiedades de los bordes permiten controlar el estilo, el grosor y el color de los bordes de los
+        elementos HTML. A continuación, se describen algunas de las propiedades más comunes relacionadas con los bordes:
+    </p>
+    <ul>
+        <li><strong>border-width:</strong> Define el grosor del borde. Puede especificarse en unidades como píxeles
+            (px), em, rem, etc. Ejemplo: <code>border-width: 2px;</code></li>
+        <li><strong>border-style:</strong> Define el estilo del borde. Los valores comunes incluyen <code>solid</code>,
+            <code>dashed</code>, <code>dotted</code>, <code>double</code>, <code>groove</code>, entre otros. Ejemplo:
+            <code>border-style: dashed;</code>
+        </li>
+        <li><strong>border-color:</strong> Define el color del borde. Puede especificarse utilizando nombres de colores,
+            valores hexadecimales, RGB, RGBA, HSL, etc. Ejemplo: <code>border-color: #ff0000;</code></li>
+        <li><strong>border-radius:</strong> Permite redondear las esquinas del borde. Se puede especificar en píxeles o
+            porcentajes. Ejemplo: <code>border-radius: 10px;</code></li>
+        <li><strong>border:</strong> Es una propiedad abreviada que combina las propiedades de ancho, estilo y color del
+            borde en una sola declaración. Ejemplo: <code>border: 2px solid #0000ff;</code></li>
+    </ul>
+    <p>Estas propiedades pueden aplicarse a cualquier elemento HTML
+        para mejorar la apariencia visual y destacar secciones
+        específicas de una página web.</p>
+    <p>Ejemplo de caso de uso: Un &lt;div&gt; llamado capa</p>
+    <div id="capa">
+        Este div tiene varias propiedades de borde aplicadas mediante CSS.
+    </div>
+</body>
+
+</html>
